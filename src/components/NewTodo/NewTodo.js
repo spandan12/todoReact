@@ -1,8 +1,12 @@
 import React from 'react';
 
-function NewTodo(props){
-    return(
-        <button>+</button>
+import styles from './NewTodo.module.css';
+
+function NewTodo(props) {
+    return (
+        <div className={styles.buttonWrapper}>
+            <button className={styles.newTodo}>+</button>
+        </div>
     )
 }
 

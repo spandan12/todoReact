@@ -1,0 +1,60 @@
+.wrapper {
+  width: 400px;
+  margin-bottom: 20px;
+  display: inline-block;
+  content: "";
+  clear: both;
+  display: table;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.leftContent {
+  float: left;
+}
+
+.checkbox {
+  float: left;
+  display: block;
+  position: relative;
+  top: 4px;
+  color: white;
+  background-color: rgb(28, 88, 92);
+}
+
+.title {
+  font-size: 20px;
+}
+
+.description {
+  color: rgb(77, 72, 72);
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.buttons {
+  float: right;
+}
+
+.edit,
+.delete {
+  border-radius: 15%;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(39, 60, 61);
+}
+
+/* @media only screen and (min-width: 768px) {
+    .checkbox {
+      float: left;
+    }
+  
+    .description {
+      margin-top: 10px;
+      float: right;
+    }
+  } */

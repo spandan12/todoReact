@@ -1,0 +1,16 @@
+.buttonWrapper{
+    width: 100%;
+    text-align: center;
+}
+
+
+.newTodo{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    border: none;
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(86, 151, 153);
+}

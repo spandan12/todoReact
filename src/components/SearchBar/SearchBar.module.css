@@ -1,0 +1,9 @@
+.bar {
+  border: none;
+  border: 1px solid rgb(187, 187, 187);
+  background-color: rgb(223, 237, 238);
+  width: 440px;
+  padding-left: 10px;
+  color: black;
+  line-height: 20px;
+}

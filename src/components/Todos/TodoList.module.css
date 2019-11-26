@@ -1,0 +1,8 @@
+.listWrapper {
+  width: 460px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 60vh;
+  overflow-y: scroll;
+}

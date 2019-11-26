@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-function searchBar(props){
+import styles from "./SearchBar.module.css";
 
-    return (
-        <input type="text"></input>
-    )
+function searchBar(props) {
+  return (
+    <input type="search" placeholder="search" className={styles.bar}></input>
+  );
 }
 
 export default searchBar;
