@@ -22,23 +22,37 @@
   background-color: rgb(28, 88, 92);
 }
 
+.completed {
+  text-decoration: line-through;
+}
+
 .title {
+  min-width: 400px;
   font-size: 20px;
 }
 
 .description {
+  min-width: 400px;
   color: rgb(77, 72, 72);
   font-size: 14px;
   margin-top: 10px;
   text-align: justify;
 }
 
+.edited {
+  border: 1px dotted rgb(179, 174, 174);
+  /* background-color: rgb(128, 128, 128); */
+  color: black;
+}
+
 .buttons {
+  margin-top: 10px;
   float: right;
 }
 
 .edit,
-.delete {
+.delete,
+.done {
   border-radius: 15%;
   margin-left: 10px;
   border: none;
@@ -48,13 +62,7 @@
   background-color: rgb(39, 60, 61);
 }
 
-/* @media only screen and (min-width: 768px) {
-    .checkbox {
-      float: left;
-    }
-  
-    .description {
-      margin-top: 10px;
-      float: right;
-    }
-  } */
+.done {
+  background-color: rgb(34, 73, 22);
+  width: 40px;
+}

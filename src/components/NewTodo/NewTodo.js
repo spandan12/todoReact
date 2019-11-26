@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import styles from './NewTodo.module.css';
+import styles from "./NewTodo.module.css";
 
 function NewTodo(props) {
-    return (
-        <div className={styles.buttonWrapper}>
-            <button className={styles.newTodo}>+</button>
-        </div>
-    )
+  return (
+    <div className={styles.buttonWrapper}>
+      <button className={styles.newTodo} onClick={props.onnew}>
+        +
+      </button>
+    </div>
+  );
 }
 
 export default NewTodo;

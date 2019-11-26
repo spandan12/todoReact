@@ -4,7 +4,12 @@ import styles from "./SearchBar.module.css";
 
 function searchBar(props) {
   return (
-    <input type="search" placeholder="search" className={styles.bar}></input>
+    <input
+      type="search"
+      placeholder="search"
+      className={styles.bar}
+      onChange={e => props.onsearch(e.target.value)}
+    ></input>
   );
 }
 
